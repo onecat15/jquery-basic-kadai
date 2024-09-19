@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="js">
+<head>
+    <meta charset="UTF-8">
+    <title>オリジナルアンケートフォーム</title>
+    <link rel="stylesheet" href="original.css">    
+</head>
+<body>
+    <h1>東海三県　食べ物アンケート</h1>
+    <form>
+    <div id="name-div">
+        <span>☆名前☆</span>
+        <input type="text" name="username" placeholder="入力してください" class="form-input">
+    </div>
+    <div id="place-first">
+        <p>あなたが行ったことのある県を教えてください！</p>
+        <span>☆行ったことがある県（複数選択可）☆</span>
+        <br>
+        <input type="checkbox" name="place" value="aichi">愛知県
+        <input type="checkbox" name="place" value="gifu">岐阜県
+        <input type="checkbox" name="place" value="mie">三重県
+        <input type="checkbox" name="place" value="none">行ったことがない
+    </div>
+    <div id="place-second">
+        <p>その中で一番、行ってみたい・行きたい県はどこですか？</p>
+        <span>☆行ってみたい・行きたい（ひとつだけ）☆</span>
+        <br>
+        <input type="radio" name="go-place" value="go-aichi">愛知県
+        <input type="radio" name="go-place" value="go-gifu">岐阜県
+        <input type="radio" name="go-place" value="go-mie">三重県
+        <input type="radio" name="go-place" value="go-none" id="none">ない
+    </div>
+    <div id="eat">
+        <p>その県で食べたい食べ物は何ですか？</p>
+        <span>☆食べたい食べ物（いくつでも）☆</span>
+        <br>
+        <textarea placeholder="入力してください" name="massage" class="message"></textarea>
+    </div>
+    <br>
+    <div id="btn">
+        <input type="button" id="send" value="送信">
+    </div>
+    <div id="h2">
+        <h2 id="thanks">ありがとうございました！</h2>
+    </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="original.js"></script>
+</body>
+</html>

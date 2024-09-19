@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    width: 500px;
+    color: rgb(57, 106, 250);
+}
+
+p {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#name-div {
+    width: 500px;
+    background-color: aquamarine;
+}
+
+#place-first {
+    width: 500px;
+    background-color: lightcyan;
+}
+
+#place-second {
+    width: 500px;
+    background-color: aquamarine;
+}
+
+#eat {
+    width: 500px;
+    background-color: lightcyan;
+}
+
+#btn {
+    width: 500px;
+}
+
+.message {
+    width: 400px;
+    height: 100px;
+}
+
+#h2 {
+    width: 500px;
+}
+
+#thanks {
+    width: 500px;
+    display: none;
+}
